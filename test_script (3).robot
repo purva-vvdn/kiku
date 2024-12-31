@@ -26,7 +26,7 @@ New Tab test
 Input Text    name=q   //input[@id="username"]    Wait Until Element Is Visible    xpath=//input[@id="username"]    timeout=5
 Input Text    //input[@id="username"]    tenant1@gmail.com
 Input Text    name=q   //input[@id="password"]    Wait Until Element Is Visible    xpath=//input[@id="password"]    timeout=5
-Input Text    //input[@id="password"]    ***
+Input Text    //input[@id="password"]    Tenant1@2024
     Wait Until Element Is Visible    xpath=//button[@class="login-btn    timeout=5
     Click Element    xpath=//button[@class="login-btn
     Wait Until Element Is Visible    xpath=//div[@class="backdrop    timeout=5
